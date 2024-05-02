@@ -33,7 +33,7 @@ As well as the fluent query builder, you also benefit from a nicely formatted re
 
 ```php
 // Without the package 👎
-$response = Http::get('https://example.com/wp-json/sportspress/v2/players');
+$response = Http::get('https://www.duzceamatorlig.com/wp-json/sportspress/v2/players');
 $data = $response->json();
 $pages = $response->header('X-WP-TotalPages');
 $total = $response->header('X-WP-Total');
@@ -64,7 +64,7 @@ composer require rickwest/laravel-sportspress-api
 Then you need to add your WordPress url to your `.env` file:
 
 ```dotenv
-WORDPRESS_URL=https://example.com
+WORDPRESS_URL=https:https://www.duzceamatorlig.com
 ```
 
 ## Usage
